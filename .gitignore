@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+*.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# Unit Test / Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Node.js / Frontend
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Documentation & Guides (generated during development)
+*_GUIDE.md
+*_COMPLETE.md
+*_FIX.md
+*_SUMMARY.md
+*_DIAGNOSIS.md
+*_ARCHITECTURE.md
+*_TEST.md
+INFINITE_LOOP_*.md
+LATEX_*.md
+RESPONSE_*.md
+BACKEND_*.md
+EDIT_*.md
+MESSAGE_*.md
+
+# Backup & Alternative Files
+*.backup
+*.bak
+*.fixed.*
+*.production.*
+*.old
+
+# Test Output Files
+*_output.txt
+*_test_output.txt
+debug_*.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
