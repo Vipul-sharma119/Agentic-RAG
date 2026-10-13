@@ -1,7 +1,7 @@
 "use client";
 
 import { Activity, ArrowRight, BookOpen, CheckCircle2, ChevronDown, ChevronLeft, ChevronRight, CircleHelp, Command, FileText, FileUp, FlaskConical, LoaderCircle, Menu, MessageSquare, Moon, MoreHorizontal, Plus, Search, Send, Settings2, ShieldCheck, Sparkles, Sun, UploadCloud, X, Zap } from "lucide-react";
-import React, { ChangeEvent, DragEvent, FormEvent, useCallback, useEffect, useRef, useState } from "react";
+import { ChangeEvent, DragEvent, FormEvent, useCallback, useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 

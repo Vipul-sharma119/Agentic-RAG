@@ -147,7 +147,7 @@ agentic-rag/
 Make sure you have:
 
 * Python 3.10+
-* Node.js 18+
+* Node.js 20.9+
 * Docker
 * Groq API key
 * Hugging Face token
