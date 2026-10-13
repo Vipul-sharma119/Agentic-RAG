@@ -41,12 +41,11 @@ The agent can:
 ### 💬 Chat Interface
 
 * Real-time token streaming using **Server-Sent Events (SSE)**
-* Markdown and LaTeX rendering
-* Code syntax highlighting
-* Message editing and regeneration
-* Conversation management
+* Markdown rendering for readable answers and code blocks
+* Conversation history while the backend session store is running
 * Dark and light themes
-* Agent execution timeline
+* Live agent plan, status and tool execution timeline
+* Responsive chat and PDF/TXT upload interface
 
 ## 🏗️ Architecture
 
@@ -96,12 +95,10 @@ The agent can:
 * **Next.js 16**
 * **React 19**
 * **TypeScript**
-* **Tailwind CSS**
-* **Zustand**
-* **Framer Motion**
-* **shadcn/ui**
+* **CSS design system**
+* **lucide-react**
 * **react-markdown**
-* **KaTeX**
+* **remark-gfm**
 
 ### Infrastructure
 
@@ -231,6 +228,8 @@ http://localhost:8000/docs
 
 ### 4. Setup Frontend
 
+Requires Node.js 20.9 or newer.
+
 ```bash
 cd frontend
 npm install
@@ -258,10 +257,10 @@ http://localhost:3000
 
 ### Upload Documents
 
-1. Open the **Ingest** page
+1. Open **Knowledge library** in the frontend sidebar
 2. Upload a PDF or TXT document
-3. Wait for processing
-4. The document becomes available to the retrieval system
+3. Wait for the API to process and index it
+4. Ask questions about the document in Chat
 
 ### Ask Questions
 
